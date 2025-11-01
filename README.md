@@ -10,9 +10,9 @@ College Connect aims to solve this by providing a common space where users can n
 
 ## Screenshots
 
-![Chat Page](projectScrnshots\ChatPage.png)
-![Connection Page](projectScrnshots\ConnectionPage.png)
-![Events Page](projectScrnshots\EventsPage.png)
-![Feed Page](projectScrnshots\feedPage.png)
-![Profile Page](projectScrnshots\ProfilePage.png)
-![Sending Requests](projectScrnshots\SendingRequestPage.png)
+![Chat Page](projectScrnshots/ChatPage.png)
+![Connection Page](projectScrnshots/ConnectionPage.png) 
+![Events Page](projectScrnshots/EventsPage.png)
+![Feed Page](projectScrnshots/feedPage.png)
+![Profile Page](projectScrnshots/ProfilePage.png)
+![Sending Requests](projectScrnshots/SendingRequestPage.png)
