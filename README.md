@@ -28,6 +28,16 @@ College Connect provides a complete networking ecosystem with:
 - Web scraping for job opportunities
 - Automated content analysis
 
+ 
+## Screenshots
+
+![Chat Page](projectScrnshots/ChatPage.png)
+![Connection Page](projectScrnshots/ConnectionPage.png) 
+![Events Page](projectScrnshots/EventsPage.png)
+![Feed Page](projectScrnshots/feedPage.png)
+![Profile Page](projectScrnshots/ProfilePage.png)
+![Sending Requests](projectScrnshots/SendingRequestPage.png)
+
 ## 🏗️ System Architecture
 
 ```mermaid
@@ -51,24 +61,4 @@ graph TD
     style G fill:#4285F4,color:white
     style W fill:#FF6B35,color:white
     style S fill:#010101,color:white
-📸 Screenshots
-<div align="center">
-Chat Interface
-https://projectScrnshots/ChatPage.png
 
-Connections Management
-https://projectScrnshots/ConnectionPage.png
-
-Events Calendar
-https://projectScrnshots/EventsPage.png
-
-News Feed
-https://projectScrnshots/feedPage.png
-
-User Profile
-https://projectScrnshots/ProfilePage.png
-
-Connection Requests
-https://projectScrnshots/SendingRequestPage.png
-
-</div>
