@@ -10,7 +10,7 @@
 **A Professional Networking Platform Connecting Students, Alumni & Faculty**
 
 [![Watch Live Demo](https://img.shields.io/badge/🚀_Watch_Live_Demo-Click_Here-red?style=for-the-badge&logo=netlify)](https://ritikabhadani11.github.io/AlumniConnectWebsite)
-[![GitHub Repo](https://img.shields.io/badge/📂_View_Source_Code-GitHub-black?style=for-the-badge&logo=github)](https://github.com/yourusername/college-connect)
+
 
 </div>
 
