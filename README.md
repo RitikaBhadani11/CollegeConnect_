@@ -51,3 +51,11 @@ graph TD
     style G fill:#4285F4,color:white
     style W fill:#FF6B35,color:white
     style S fill:#010101,color:white
+## Screenshots
+
+![Chat Page](projectScrnshots/ChatPage.png)
+![Connection Page](projectScrnshots/ConnectionPage.png) 
+![Events Page](projectScrnshots/EventsPage.png)
+![Feed Page](projectScrnshots/feedPage.png)
+![Profile Page](projectScrnshots/ProfilePage.png)
+![Sending Requests](projectScrnshots/SendingRequestPage.png)
