@@ -1,18 +1,48 @@
-# College Connect – A Networking Platform for Students, Alumni & Faculty
+# 💼 College Connect – Networking Platform for Students, Alumni & Faculty
 
-College Connect is a full-stack web application built to connect students, alumni, and faculty members of a college on a single, reliable platform. It allows users to create professional profiles, share their experiences, and explore opportunities — whether it's for career growth, collaborations, or staying updated with the college network.
+<div align="center">
 
-## Why I Built This
+![College Connect](https://img.shields.io/badge/College-Connect-blue?style=for-the-badge&logo=graduation-cap)
+![React](https://img.shields.io/badge/React-18.3-blue?style=for-the-badge&logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-18-green?style=for-the-badge&logo=nodedotjs)
+![MongoDB](https://img.shields.io/badge/MongoDB-8.15-green?style=for-the-badge&logo=mongodb)
 
-In most colleges, once students graduate, they lose contact with classmates and faculty, and incoming students have limited access to real-world guidance. Meanwhile, job seekers often struggle to keep track of opportunities spread across various platforms.
+**A Professional Networking Platform Connecting Students, Alumni & Faculty**
 
-College Connect aims to solve this by providing a common space where users can not only stay connected but also explore job opportunities, industry updates, and professional networks — all in one place. Whether someone is looking to hire, share openings, or apply for jobs, this platform brings the community together to support each other's growth.
+[![Watch Live Demo](https://img.shields.io/badge/🚀_Watch_Live_Demo-Click_Here-red?style=for-the-badge&logo=netlify)](https://ritikabhadani11.github.io/AlumniConnectWebsite)
+[![GitHub Repo](https://img.shields.io/badge/📂_View_Source_Code-GitHub-black?style=for-the-badge&logo=github)](https://github.com/yourusername/college-connect)
 
-## Screenshots
+</div>
 
-![Chat Page](projectScrnshots/ChatPage.png)
-![Connection Page](projectScrnshots/ConnectionPage.png) 
-![Events Page](projectScrnshots/EventsPage.png)
-![Feed Page](projectScrnshots/feedPage.png)
-![Profile Page](projectScrnshots/ProfilePage.png)
-![Sending Requests](projectScrnshots/SendingRequestPage.png)
+## 📖 Introduction
+
+**College Connect** is a full-stack web application built to connect students, alumni, and faculty members of a college on a single, reliable platform. It allows users to create professional profiles, share their experiences, and explore opportunities — whether it's for career growth, collaborations, or staying updated with the college network.
+
+### 🎯 Project Overview
+College Connect provides a complete networking ecosystem with:
+- Professional profile management and connections
+- Real-time chat and messaging system
+- Job opportunities and career postings
+- Event management and college updates
+- AI-powered smart recommendations
+
+## 🏗️ System Architecture
+
+```mermaid
+graph TD
+    U[🎓 User] -->|🌐 HTTP Requests| R[⚛️ React Frontend]
+    R -->|🔐 REST API| N[🍃 Node.js Backend]
+    N -->|💾 Data Storage| M[🗄️ MongoDB Atlas]
+    N -->|☁️ File Storage| C[🌩️ Cloudinary]
+    N -->|🤖 AI Features| G[🧠 Google Generative AI]
+    R -->|⚡ Real-time| S[🔌 Socket.io Server]
+    S -->|🔄 Live Updates| N
+    G -->|💡 Smart Recommendations| R
+    
+    style U fill:#4F46E5,color:white
+    style R fill:#61DAFB,color:black
+    style N fill:#339933,color:white
+    style M fill:#47A248,color:white
+    style C fill:#3448C5,color:white
+    style G fill:#4285F4,color:white
+    style S fill:#010101,color:white
