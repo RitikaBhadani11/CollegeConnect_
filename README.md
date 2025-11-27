@@ -9,8 +9,8 @@
 
 **A Professional Networking Platform Connecting Students, Alumni & Faculty**
 
-[![Watch Live Demo]([https://img.shields.io/badge/🚀_Watch_Live_Demo-Click_Here-red?style=for-the-badge&logo=netlify](https://drive.google.com/file/d/1kKbI1X-LZMf8w7kSG_o8ZeXcFBPlrmjF/view?usp=sharing)]
-
+[![Watch Live Demo](https://img.shields.io/badge/🚀_Watch_Live_Demo-Click_Here-red?style=for-the-badge&logo=netlify)](https://ritikabhadani11.github.io/AlumniConnectWebsite)
+[![GitHub Repo](https://img.shields.io/badge/📂_View_Source_Code-GitHub-black?style=for-the-badge&logo=github)](https://github.com/yourusername/college-connect)
 
 </div>
 
@@ -25,6 +25,8 @@ College Connect provides a complete networking ecosystem with:
 - Job opportunities and career postings
 - Event management and college updates
 - AI-powered smart recommendations
+- Web scraping for job opportunities
+- Automated content analysis
 
 ## 🏗️ System Architecture
 
@@ -35,9 +37,11 @@ graph TD
     N -->|💾 Data Storage| M[🗄️ MongoDB Atlas]
     N -->|☁️ File Storage| C[🌩️ Cloudinary]
     N -->|🤖 AI Features| G[🧠 Google Generative AI]
+    N -->|💼 Job Scraping| W[🌐 Web Scraping Service]
     R -->|⚡ Real-time| S[🔌 Socket.io Server]
     S -->|🔄 Live Updates| N
     G -->|💡 Smart Recommendations| R
+    W -->|📊 Job Listings| R
     
     style U fill:#4F46E5,color:white
     style R fill:#61DAFB,color:black
@@ -45,4 +49,5 @@ graph TD
     style M fill:#47A248,color:white
     style C fill:#3448C5,color:white
     style G fill:#4285F4,color:white
+    style W fill:#FF6B35,color:white
     style S fill:#010101,color:white
